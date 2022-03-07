@@ -1,0 +1,17 @@
+build:
+  stage: build
+  script:
+    - cd building
+    - ./build.sh
+  artifacts:
+    paths:
+      - building/nuxt
+      - building/static
+      - building/package.json
+      - building/nuxt.config.js
+      - building/start.sh
+deploy:
+  stage: deploy
+  script:
+    - cd building
+    - sudo BRANCH=master ./push.sh
