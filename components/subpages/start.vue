@@ -61,6 +61,7 @@
         <div class="mt-4 flex flex-1 justify-center space-x-2 sm:justify-start lg:mt-6 lg:justify-start">
           <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="#features">Особенности</a>
           <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="#prices">Цены</a>
+          <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="https://ms.monsave.su/registration">Попробовать</a>
         </div>
       </div>
     </div>
