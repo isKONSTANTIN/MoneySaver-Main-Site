@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'monsave.su',
+    title: 'MoneySaver',
     htmlAttrs: {
       lang: 'ru'
     },
