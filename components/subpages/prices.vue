@@ -66,6 +66,66 @@
         </div>
       </div>
 
+      <div class="price-card price-card-helper">
+        <div class="price-card-title">Тест</div>
+
+        <div class="price-card-price">
+          Бесплатно
+        </div>
+
+        <div class="price-card-description">
+          Помогите нам в разработке самого удобного сервиса для расчета бюджета
+        </div>
+
+        <div class="price-card-body">
+          <div class="entry">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Транзакции
+          </div>
+
+          <div class="entry">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Планы
+          </div>
+
+          <div class="entry">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Категории
+          </div>
+
+          <div class="entry">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Авто-транзакции
+          </div>
+
+          <div class="entry">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Аналитика
+          </div>
+
+          <div class="entry">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Прямая связь с разработчиком
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-auto">
+          <a class="btn btn-ghost btn-active" href="https://t.me/isKONSTANTIN">Связаться</a>
+        </div>
+      </div>
+
       <div class="price-card price-card-main">
         <div class="price-card-title">Основной</div>
 
@@ -130,7 +190,7 @@
           <a class="btn btn-ghost btn-active" href="https://t.me/isKONSTANTIN">Заказать</a>
         </div>
       </div>
-
+      <div></div>
       <div class="price-card price-card-special">
 
         <div class="price-card-title">Self-hosted</div>
@@ -147,7 +207,6 @@
         <div class="price-card-description">
           Для тех, кому тесно.
         </div>
-
 
         <div class="price-card-body">
           <div class="entry">
@@ -232,6 +291,11 @@ export default {
 .price-card-main {
   @apply text-neutral-content;
   background-image: linear-gradient(to right top, #00B4FF, #b3cb54);
+}
+
+.price-card-helper {
+  @apply text-neutral-content;
+  background-image: linear-gradient(to right top, #aa00ff, #54cb88);
 }
 
 .price-card-demo {
