@@ -25,7 +25,7 @@
           </svg>
         </div>
         <div class="card-body pl-4">
-          <h2 class="card-title">Сканнер QR-кодов</h2>
+          <h2 class="card-title">Сканер QR-кодов</h2>
           <p>Сканируйте чеки для быстрого учета покупок</p>
         </div>
       </div>
@@ -41,7 +41,7 @@
         </div>
         <div class="card-body pl-4">
           <h2 class="card-title">Аналитика</h2>
-          <p>Все расходы и доходы в удобных графиках</p>
+          <p>Изучайте все расходы и доходы в удобных графиках</p>
         </div>
       </div>
 
@@ -53,7 +53,7 @@
         </div>
         <div class="card-body pl-4">
           <h2 class="card-title">Автоматические транзакции</h2>
-          <p>Не придется вручную добавлять повторяющиеся расходы или доходы</p>
+          <p>Избавьтесь от рутины, добавляя повторяющиеся транзакции</p>
         </div>
       </div>
 
@@ -103,23 +103,23 @@ export default {
 }
 
 .cloud-animation {
-  animation: cloud 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: cloud 12s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .qr-animation {
-  animation: qr 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: qr 16s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .chart-animation {
-  animation: chart 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: chart 16s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .repeat-animation {
-  animation: repeat 6s linear infinite;
+  animation: repeat 16s linear infinite;
 }
 
 .db-animation-1 {
-  animation: db1 6s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: db1 16s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .db-animation-2 {
@@ -127,11 +127,11 @@ export default {
 }
 
 .db-animation-3 {
-  animation: db3 6s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: db3 16s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .pen-animation {
-  animation: pen 6s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: pen 16s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 @keyframes pen {

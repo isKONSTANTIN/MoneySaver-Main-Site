@@ -58,10 +58,11 @@
             </div>
           </div>
         </div>
-        <div class="mt-4 flex flex-1 justify-center space-x-2 sm:justify-start lg:mt-6 lg:justify-start">
+        <div class="mt-4 flex flex-1 justify-center gap-2 sm:justify-start lg:mt-6 lg:justify-start flex-wrap">
+          <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="https://ms.monsave.su/registration">Попробовать</a>
           <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="#features">Особенности</a>
           <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="#prices">Цены</a>
-          <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="https://ms.monsave.su/registration">Попробовать</a>
+          <a class="btn btn-ghost btn-active lg:btn-lg normal-case" href="https://ms.monsave.su/">Вход</a>
         </div>
       </div>
     </div>

@@ -30,7 +30,11 @@
           MoneySaver project <br>
           Thanks for using : 3
         </p>
-        <p>Copyright © 2022 - All right reserved by <a href="https://knst.su" class="underline">isKonstantin</a></p>
+        <p>Developed by <a href="https://knst.su" class="underline">isKonstantin</a></p>
+        <div class="flex flex-col gap-1">
+          <a href="https://monsave.su/tos" class="underline">Пользовательское соглашение</a>
+          <a href="https://monsave.su/privacy" class="underline">Политика обработки персональных данных</a>
+        </div>
       </div>
     </footer>
   </div>
